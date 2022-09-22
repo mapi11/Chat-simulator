@@ -38,7 +38,7 @@ public class MessageManagerScript : MonoBehaviour
     }
 
 
-    public void SendMessage(string text)
+    public new void SendMessage(string text)
     {
         Message _newMessage = new Message();
 
