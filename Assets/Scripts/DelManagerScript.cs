@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class DelManagerScript : MonoBehaviour
 {
-    public GameObject _btnDelOn;
+    [SerializeField] private GameObject _btnDelOn;
+    [SerializeField] private GameObject _btnSelect;
+    [SerializeField] private GameObject _btnSend;
 
-    public GameObject _btnSendOff;
-    public GameObject _btnSendOn;
+    [SerializeField] private GameObject InputField;
 
-    public GameObject InputField;
-
+    [HideInInspector]
     public bool _isVisible;
 
     //public GameObject[] _delButtons;
@@ -30,8 +30,8 @@ public class DelManagerScript : MonoBehaviour
     {
         _btnDelOn.SetActive(false);
 
-        _btnSendOff.SetActive(true);
-        _btnSendOn.SetActive(false);
+        _btnSelect.SetActive(true);
+        _btnSend.SetActive(false);
 
         InputField.SetActive(false);
 
@@ -47,8 +47,8 @@ public class DelManagerScript : MonoBehaviour
     {
         _btnDelOn.SetActive(true);
 
-        _btnSendOff.SetActive(false);
-        _btnSendOn.SetActive(true);
+        _btnSelect.SetActive(false);
+        _btnSend.SetActive(true);
 
         InputField.SetActive(true);
 

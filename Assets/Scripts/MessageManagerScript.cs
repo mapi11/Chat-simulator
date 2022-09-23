@@ -5,10 +5,14 @@ using TMPro;
 
 public class MessageManagerScript : MonoBehaviour
 {
-    public GameObject _chatPanel;
-    public GameObject _textObject;
+    [SerializeField] private GameObject _chatPanel;
 
-    public TMP_InputField _chatBox;
+    [SerializeField] private GameObject _textObject;
+    //[SerializeField] private GameObject _messagePanel;
+
+    [SerializeField] private TMP_InputField _chatBox;
+
+    private GameObject _a;
 
     private bool IsClick = false;
 
@@ -43,6 +47,8 @@ public class MessageManagerScript : MonoBehaviour
         Message _newMessage = new Message();
 
         _newMessage._text = text;
+
+        //Instantiate(_messagePanel, _chatPanel.transform);
 
         GameObject _newText = Instantiate(_textObject, _chatPanel.transform);
 
