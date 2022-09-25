@@ -331,6 +331,14 @@ PrefabInstance:
       propertyPath: _chatBox
       value: 
       objectReference: {fileID: 6962775893875082197}
+    - target: {fileID: 8612555747274711259, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
+      propertyPath: m_ChildAlignment
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612555747274711259, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
+      propertyPath: m_ChildScaleWidth
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
 --- !u!224 &3304021953162172984 stripped
