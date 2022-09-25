@@ -302,6 +302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: My message
       objectReference: {fileID: 0}
+    - target: {fileID: 6735350862477579533, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8289638643753652653, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
       propertyPath: m_SizeDelta.x
       value: 100
@@ -408,8 +412,8 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Your brain gets smart but your head gets dumb
 
-        So much to
-        do, so much to see
+        So much to do,
+        so much to see
 
         So what''s wrong with taking the back streets?'
       objectReference: {fileID: 0}
@@ -572,6 +576,10 @@ PrefabInstance:
     - target: {fileID: 6735350862477579533, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
       propertyPath: m_Name
       value: My message (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735350862477579533, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8289638643753652653, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
       propertyPath: m_SizeDelta.x
@@ -921,6 +929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Message (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6735350862477579533, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
 --- !u!1001 &1221743700
@@ -1104,6 +1116,10 @@ PrefabInstance:
     - target: {fileID: 6735350862477579533, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
       propertyPath: m_Name
       value: My message (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735350862477579533, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8289638643753652653, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1340,6 +1356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Message
       objectReference: {fileID: 0}
+    - target: {fileID: 6735350862477579533, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
 --- !u!224 &1483474696 stripped
@@ -1510,6 +1530,10 @@ PrefabInstance:
     - target: {fileID: 6735350862477579533, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
       propertyPath: m_Name
       value: Message (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735350862477579533, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
@@ -1843,6 +1867,10 @@ PrefabInstance:
     - target: {fileID: 6735350862477579533, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
       propertyPath: m_Name
       value: My message (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735350862477579533, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8289638643753652653, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
       propertyPath: m_SizeDelta.x
@@ -2193,6 +2221,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3304021953196554909, guid: f1455a513c9e6e44d982996967b31ad8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3646172686960398351, guid: f1455a513c9e6e44d982996967b31ad8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2309,6 +2341,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4047290132406417274, guid: f1455a513c9e6e44d982996967b31ad8, type: 3}
+      propertyPath: _textObject
+      value: 
+      objectReference: {fileID: 3881524603695947050, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
     - target: {fileID: 4101477457382708936, guid: f1455a513c9e6e44d982996967b31ad8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3230,6 +3266,10 @@ PrefabInstance:
     - target: {fileID: 6735350862477579533, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
       propertyPath: m_Name
       value: Message (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735350862477579533, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f36bdb1cd432cbb43a938ef98cadd109, type: 3}
