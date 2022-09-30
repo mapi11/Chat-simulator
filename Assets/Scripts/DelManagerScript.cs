@@ -10,13 +10,12 @@ public class DelManagerScript : MonoBehaviour
     [SerializeField] private GameObject _btnSend;
 
     [SerializeField] private GameObject _contentChat;
+    [SerializeField] private float _contentPos;
 
     [SerializeField] private GameObject InputField;
 
     [HideInInspector]
     public bool _isVisible;
-
-    //public GameObject[] _delButtons;
 
     private void Start()
     {
@@ -24,7 +23,7 @@ public class DelManagerScript : MonoBehaviour
     }
     private void Update()
     {
-        //_delButtons = GameObject.FindGameObjectsWithTag("Del");
+        _contentPos = _contentChat.transform.localPosition.y;
     }
 
     [Obsolete]
@@ -37,13 +36,10 @@ public class DelManagerScript : MonoBehaviour
 
         InputField.SetActive(false);
 
-        //for (int i = 0; i < _delButtons.Length; i++)
-        //{
-        //    //_delButtons[i].SetActiveRecursively(true);
-        //}
+
         _isVisible = true;
 
-        _contentChat.transform.localPosition = new Vector2(50, 350);
+        _contentChat.transform.localPosition = new Vector2(50, _contentPos);
     }
 
     [Obsolete]
@@ -56,12 +52,9 @@ public class DelManagerScript : MonoBehaviour
 
         InputField.SetActive(true);
 
-        //for (int i = 0; i < _delButtons.Length; i++)
-        //{
-        //    //_delButtons[i].SetActiveRecursively(false);
-        //}
+
         _isVisible = false;
 
-        _contentChat.transform.localPosition = new Vector2(200, 200);
+        _contentChat.transform.localPosition = new Vector2(200, _contentPos);
     }
 }
