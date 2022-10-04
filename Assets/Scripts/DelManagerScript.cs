@@ -10,17 +10,13 @@ public class DelManagerScript : MonoBehaviour
     [SerializeField] private GameObject _btnSend;
 
     [SerializeField] private GameObject _contentChat;
-    [SerializeField] private float _contentPos;
+    private float _contentPos;
 
     [SerializeField] private GameObject InputField;
 
     [HideInInspector]
     public bool _isVisible;
 
-    private void Start()
-    {
-        _contentChat = GameObject.Find("ContentChat");
-    }
     private void Update()
     {
         _contentPos = _contentChat.transform.localPosition.y;

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5582917343677226205}
   - component: {fileID: 8612555747274711259}
   m_Layer: 0
-  m_Name: ContentChat
+  m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 11.59
+  m_Spacing: 10
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
