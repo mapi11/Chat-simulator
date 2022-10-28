@@ -78,8 +78,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txt: {fileID: 3881524603695947048, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
-  txtTime: {fileID: 0}
   messageContent: {fileID: 5096115759674502003}
+  nickname: {fileID: 5794083314031908521}
+  avatar: {fileID: 8377510690122448566}
 --- !u!1 &951683099268314681
 GameObject:
   m_ObjectHideFlags: 0

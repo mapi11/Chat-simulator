@@ -10,7 +10,10 @@ public class NewMessageManagerScript : MonoBehaviour
     [SerializeField] private GameObject pMessage;
     [SerializeField] private GameObject pChat;
     public TMP_InputField _chatBox;
-    
+
+    public string pNickname = "Bo Yang Boyang";
+    public Sprite pAvatar;
+
     public void SendMessage()
     {
         if (_chatBox.text != "")
