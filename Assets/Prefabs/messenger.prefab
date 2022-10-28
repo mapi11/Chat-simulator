@@ -129,7 +129,15 @@ PrefabInstance:
     - target: {fileID: 733321405526446466, guid: c1d960fda0258504e81a1a0cd008eedb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 4047290132406417274}
+      objectReference: {fileID: 5769441267376971056}
+    - target: {fileID: 733321405526446466, guid: c1d960fda0258504e81a1a0cd008eedb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SendMessage
+      objectReference: {fileID: 0}
+    - target: {fileID: 733321405526446466, guid: c1d960fda0258504e81a1a0cd008eedb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NewMessageManagerScript, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 9072473943709202136, guid: c1d960fda0258504e81a1a0cd008eedb, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -335,30 +343,38 @@ PrefabInstance:
       propertyPath: _chatBox
       value: 
       objectReference: {fileID: 6962775893875082197}
-    - target: {fileID: 8612555747274711259, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
-      propertyPath: m_Spacing
-      value: 12
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6380020837242097973, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
 --- !u!224 &3304021953162172984 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5582917343709903991, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
   m_PrefabInstance: {fileID: 6962775892219192911}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3304021953162172985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5582917343709903990, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
+  m_PrefabInstance: {fileID: 6962775892219192911}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5769441267376971056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304021953162172985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d9c65f489de1d489b6070847283016, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pMessage: {fileID: 946822814011155097, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
+  pChat: {fileID: 3304021953196554909}
+  inputField: {fileID: 6962775893875082197}
+  pAvatar: {fileID: 21300000, guid: a9597f7715228b4449af63a8f345866c, type: 3}
+  pNickname: My nickname
 --- !u!1 &3304021953196554909 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5582917343677226194, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
   m_PrefabInstance: {fileID: 6962775892219192911}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4047290132406417274 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6380020837242097973, guid: 87596f8b3d7fe9a458bb856ef75b54eb, type: 3}
-  m_PrefabInstance: {fileID: 6962775892219192911}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bfb4193d9d696146975758b13e4e734, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

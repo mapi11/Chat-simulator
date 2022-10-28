@@ -70,7 +70,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 10
+  m_Spacing: 12
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bfb4193d9d696146975758b13e4e734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  testObject: {fileID: 0}
   _chatPanel: {fileID: 5582917343677226194}
   _textObject: {fileID: 3881524603695947050, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
   _chatBox: {fileID: 0}

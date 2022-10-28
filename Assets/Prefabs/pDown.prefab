@@ -640,7 +640,6 @@ MonoBehaviour:
   _btnSelect: {fileID: 6925058076151576494}
   _btnSend: {fileID: 733321405526446464}
   _contentChat: {fileID: 0}
-  _contentPos: 0
   InputField: {fileID: 9072473942651385311}
   _isVisible: 0
 --- !u!1 &9072473943854846195

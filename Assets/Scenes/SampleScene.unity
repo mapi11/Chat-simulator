@@ -607,7 +607,7 @@ PrefabInstance:
     - target: {fileID: 1687194948131284874, guid: f1455a513c9e6e44d982996967b31ad8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1686776228}
+      objectReference: {fileID: 1686776225}
     - target: {fileID: 1687194948131284874, guid: f1455a513c9e6e44d982996967b31ad8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SendMessage
@@ -2108,17 +2108,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 855d80598f534e64bbebdb942c5aaaa8, type: 3}
---- !u!114 &652434542 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6962775893875082197, guid: f1455a513c9e6e44d982996967b31ad8, type: 3}
-  m_PrefabInstance: {fileID: 464529983}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &703824091
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,7 +2542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3881524603695947051, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 186.28
       objectReference: {fileID: 0}
     - target: {fileID: 3881524603695947051, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2589,7 +2578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3881524603695947051, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 93.14
       objectReference: {fileID: 0}
     - target: {fileID: 3881524603695947051, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3018,28 +3007,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668173536}
   m_CullTransparentMesh: 1
---- !u!1 &1686776223 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3304021953162172985, guid: f1455a513c9e6e44d982996967b31ad8, type: 3}
+--- !u!114 &1686776225 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5769441267376971056, guid: f1455a513c9e6e44d982996967b31ad8, type: 3}
   m_PrefabInstance: {fileID: 464529983}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1686776228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686776223}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2d9c65f489de1d489b6070847283016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pMessage: {fileID: 946822814011155097, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
-  pChat: {fileID: 72608069}
-  _chatBox: {fileID: 652434542}
-  pNickname: Bo Yang Boyang
-  pAvatar: {fileID: 21300000, guid: 1c7d246d86581a946bb0b7f4f08421ef, type: 3}
 --- !u!1001 &1773348795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3491,7 +3469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3881524603695947051, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 278.73
       objectReference: {fileID: 0}
     - target: {fileID: 3881524603695947051, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
       propertyPath: m_SizeDelta.y
@@ -3527,7 +3505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3881524603695947051, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 139.365
       objectReference: {fileID: 0}
     - target: {fileID: 3881524603695947051, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
       propertyPath: m_AnchoredPosition.y

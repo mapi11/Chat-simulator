@@ -19,11 +19,11 @@ public class MessageScript : MonoBehaviour
     {
         nMMS = FindObjectOfType<NewMessageManagerScript>();
 
-        txt.text = nMMS._chatBox.text;
+        txt.text = nMMS.inputField.text;
         Instantiate(txt, messageContent.transform);
-        nMMS._chatBox.text = "";
+        nMMS.inputField.text = "";
 
         nickname.text = nMMS.pNickname;
-        avatar.sprite = nMMS.pAvatar;
+        //avatar.sprite = nMMS.pAvatar[2];
     }
 }
