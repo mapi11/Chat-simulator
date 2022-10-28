@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class MessageManagerScript : MonoBehaviour
 {
+    [SerializeField] private GameObject testObject;
+    
     [SerializeField] private GameObject _chatPanel;
 
+    
     [SerializeField] private GameObject _textObject;
     //[SerializeField] private GameObject _messagePanel;
 
     [SerializeField] private TMP_InputField _chatBox;
-
+    
     private GameObject _a;
 
     private bool IsClick = false;
-
 
     void Update()
     {
@@ -42,11 +45,11 @@ public class MessageManagerScript : MonoBehaviour
     }
 
 
-    public new void SendMessage(string text)
+    public new void SendMessage(string Text)
     {
         Message _newMessage = new Message();
 
-        _newMessage._text = text;
+        _newMessage._text = Text;
 
         //Instantiate(_messagePanel, _chatPanel.transform);
 
