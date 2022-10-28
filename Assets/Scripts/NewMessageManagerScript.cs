@@ -13,6 +13,9 @@ public class NewMessageManagerScript : MonoBehaviour
     
     public void SendMessage()
     {
-        Instantiate(pMessage, pChat.transform);
+        if (_chatBox.text != "")
+        {
+            Instantiate(pMessage, pChat.transform);
+        }
     }
 }

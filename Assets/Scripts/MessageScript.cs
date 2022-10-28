@@ -3,14 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine.UI;
 
 public class MessageScript : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI txt;
-    [SerializeField] private string tMessage;
+    [SerializeField] private TextMeshProUGUI txtTime;
     [SerializeField] private GameObject messageContent;
-
     private NewMessageManagerScript nMMS;
     
     private void Start()
@@ -21,5 +21,4 @@ public class MessageScript : MonoBehaviour
         Instantiate(txt, messageContent.transform);
         nMMS._chatBox.text = "";
     }
-
 }
