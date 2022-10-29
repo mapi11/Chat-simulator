@@ -12,7 +12,8 @@ public class NewMessageManagerScript : MonoBehaviour
     public TMP_InputField inputField;
     public Sprite[] pAvatar;
     [HideInInspector]
-    public string pNickname = "My nickname";
+    public string pNickname;
+    [HideInInspector]
     public int randInt;
 
     private void Start()
@@ -21,17 +22,14 @@ public class NewMessageManagerScript : MonoBehaviour
             
         if (randInt == 0)
         {
-            pAvatar = new Sprite[0];
             pNickname = "Nickname 0";
         }
         else if (randInt == 1)
         {
-            pAvatar = new Sprite[1];
             pNickname = "Nickname 1";
         }
         else if (randInt == 2)
         {
-            pAvatar = new Sprite[2];
             pNickname = "Nickname 2";
         }
     }

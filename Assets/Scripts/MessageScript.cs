@@ -24,6 +24,6 @@ public class MessageScript : MonoBehaviour
         nMMS.inputField.text = "";
 
         nickname.text = nMMS.pNickname;
-        //avatar.sprite = nMMS.pAvatar[2];
+        avatar.sprite = nMMS.pAvatar[nMMS.randInt];
     }
 }

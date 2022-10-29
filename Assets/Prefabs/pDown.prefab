@@ -1254,11 +1254,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8788407910269487807, guid: 87f81a19a97ee6045b0b855e4bf1c9b6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SendPress
+      value: SendMessage
       objectReference: {fileID: 0}
     - target: {fileID: 8788407910269487807, guid: 87f81a19a97ee6045b0b855e4bf1c9b6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MessageManagerScript, Assembly-CSharp
+      value: NewMessageManagerScript, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8788407910269487808, guid: 87f81a19a97ee6045b0b855e4bf1c9b6, type: 3}
       propertyPath: m_Sprite

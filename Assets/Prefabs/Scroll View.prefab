@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 5582917343709903991}
   - component: {fileID: 5582917343709903985}
   - component: {fileID: 5582917343709903984}
-  - component: {fileID: 6380020837242097973}
+  - component: {fileID: 8516116480104648876}
   m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6380020837242097973
+--- !u!114 &8516116480104648876
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,13 +165,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 5582917343709903990}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bfb4193d9d696146975758b13e4e734, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d9c65f489de1d489b6070847283016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testObject: {fileID: 0}
-  _chatPanel: {fileID: 5582917343677226194}
-  _textObject: {fileID: 3881524603695947050, guid: 386ec958560f97f418a55231ed900a0e, type: 3}
-  _chatBox: {fileID: 0}
+  pMessage: {fileID: 946822814011155097, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
+  pChat: {fileID: 5582917343677226194}
+  inputField: {fileID: 0}
+  pAvatar: []
+  pNickname: 
+  randInt: 0
 --- !u!1 &5582917344436579072
 GameObject:
   m_ObjectHideFlags: 0
