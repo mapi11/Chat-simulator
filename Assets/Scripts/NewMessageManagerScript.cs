@@ -16,9 +16,10 @@ public class NewMessageManagerScript : MonoBehaviour
     [HideInInspector]
     public int randInt;
 
-    private void Start()
+    private void Awake()
     {
-        randInt = Random.Range(0, pAvatar.Length);
+
+    randInt = Random.Range(0, pAvatar.Length);
             
         if (randInt == 0)
         {
@@ -31,6 +32,14 @@ public class NewMessageManagerScript : MonoBehaviour
         else if (randInt == 2)
         {
             pNickname = "Nickname 2";
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SendMessage();
         }
     }
 
