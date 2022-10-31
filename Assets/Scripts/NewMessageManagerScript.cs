@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 
 
 public class NewMessageManagerScript : MonoBehaviour
@@ -18,9 +17,8 @@ public class NewMessageManagerScript : MonoBehaviour
 
     private void Awake()
     {
+        randInt = Random.Range(0, pAvatar.Length);
 
-    randInt = Random.Range(0, pAvatar.Length);
-            
         if (randInt == 0)
         {
             pNickname = "Nickname 0";
