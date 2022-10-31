@@ -10,27 +10,13 @@ public class NewMessageManagerScript : MonoBehaviour
     [SerializeField] private GameObject pChat;
     public TMP_InputField inputField;
     public Sprite[] pAvatar;
-    [HideInInspector]
-    public string pNickname;
+    public string[] pNickname;
     [HideInInspector]
     public int randInt;
 
     private void Awake()
     {
         randInt = Random.Range(0, pAvatar.Length);
-
-        if (randInt == 0)
-        {
-            pNickname = "Nickname 0";
-        }
-        else if (randInt == 1)
-        {
-            pNickname = "Nickname 1";
-        }
-        else if (randInt == 2)
-        {
-            pNickname = "Nickname 2";
-        }
     }
 
     private void Update()

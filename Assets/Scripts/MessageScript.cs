@@ -21,7 +21,7 @@ public class MessageScript : MonoBehaviour
         Instantiate(txt, messageContent.transform);
         nMMS.inputField.text = "";
 
-        nickname.text = nMMS.pNickname;
+        nickname.text = nMMS.pNickname[nMMS.randInt];
         avatar.sprite = nMMS.pAvatar[nMMS.randInt];
         
         //Time

@@ -211,8 +211,14 @@ MonoBehaviour:
   pMessage: {fileID: 946822814011155097, guid: 0a6e7fc7ae3e7724aa72d380b4ac6a20, type: 3}
   pChat: {fileID: 5582917343677226194}
   inputField: {fileID: 0}
-  pAvatar: []
-  pNickname: 
+  pAvatar:
+  - {fileID: 21300000, guid: a9597f7715228b4449af63a8f345866c, type: 3}
+  - {fileID: 21300000, guid: 228d20ab1630faf4d9343d4a61e86058, type: 3}
+  - {fileID: 21300000, guid: 1c7d246d86581a946bb0b7f4f08421ef, type: 3}
+  pNickname:
+  - Rob
+  - Bob
+  - Rub
   randInt: 0
 --- !u!1 &5582917344436579072
 GameObject:
