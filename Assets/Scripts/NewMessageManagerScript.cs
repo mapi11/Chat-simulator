@@ -16,22 +16,22 @@ public class NewMessageManagerScript : MonoBehaviour
 
     private void Awake()
     {
+        
         randInt = Random.Range(0, pAvatar.Length);
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SendMessage();
-        }
     }
 
     public void SendMessage()
     {
         if (inputField.text != "")
         {
+             RectTransform rt = (RectTransform)pChat.transform;
+             float height = rt.rect.height;
             Instantiate(pMessage, pChat.transform);
+            
+           
+            pChat.transform.localPosition = new Vector2(200, height - 1400);
+            
+            Debug.Log(height);
         }
     }
 }
