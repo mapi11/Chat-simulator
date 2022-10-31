@@ -793,6 +793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7210212926550528710}
   - component: {fileID: 6921284923183759524}
+  - component: {fileID: 2545085960390481940}
   m_Layer: 0
   m_Name: Other message
   m_TagString: Untagged
@@ -847,3 +848,16 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &2545085960390481940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8795937562681556805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693717f03741f824cb5f94d543498f9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtTime: {fileID: 9202281071302275309}

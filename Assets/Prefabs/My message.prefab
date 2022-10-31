@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1386381624131817242}
   - component: {fileID: 1675320639861972344}
   - component: {fileID: 6256409671404978622}
+  - component: {fileID: 8247265529959159647}
   m_Layer: 0
   m_Name: My message
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MonoBehaviour:
   messageContent: {fileID: 5096115759674502003}
   nickname: {fileID: 5794083314031908521}
   avatar: {fileID: 8377510690122448566}
+--- !u!114 &8247265529959159647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946822814011155097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693717f03741f824cb5f94d543498f9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtTime: {fileID: 4406639339652085665}
 --- !u!1 &951683099268314681
 GameObject:
   m_ObjectHideFlags: 0
